@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: nicocode97/jupiternico:v1,nicocode97/jupiternico:latest
+          tags: nicocode97/jupiternico:v1,nicocode97/jupiternico:latest,nicocode97/jupiternico:${{ github.sha }}
