@@ -24,6 +24,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
           push: true
-          tags: nicoCode97/jupiternico:v1 , nicoCode97/jupiternico:latest
+          tags: nicoCode97/jupiternico:v1,nicoCode97/jupiternico:latest
